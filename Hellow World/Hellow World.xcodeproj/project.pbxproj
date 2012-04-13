@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF5043CC1533C5F200377396 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF5043CB1533C5F200377396 /* UIKit.framework */; };
+		EF5043CE1533C5F200377396 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF5043CD1533C5F200377396 /* Foundation.framework */; };
+		EF5043D01533C5F200377396 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF5043CF1533C5F200377396 /* CoreGraphics.framework */; };
+		EF5043D61533C5F200377396 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF5043D41533C5F200377396 /* InfoPlist.strings */; };
+		EF5043D81533C5F200377396 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5043D71533C5F200377396 /* main.m */; };
+		EF5043DC1533C5F200377396 /* BIDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5043DB1533C5F200377396 /* BIDAppDelegate.m */; };
+		EF5043DF1533C5F200377396 /* BIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5043DE1533C5F200377396 /* BIDViewController.m */; };
+		EF5043E21533C5F200377396 /* BIDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF5043E01533C5F200377396 /* BIDViewController.xib */; };
+		EF5043E91533CAFB00377396 /* world_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = EF5043E81533CAFB00377396 /* world_normal.png */; };
+		EF5043EB1533CB0000377396 /* world@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF5043EA1533CB0000377396 /* world@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EF5043C71533C5F200377396 /* Hellow World.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hellow World.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF5043CB1533C5F200377396 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EF5043CD1533C5F200377396 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EF5043CF1533C5F200377396 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EF5043D31533C5F200377396 /* Hellow World-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Hellow World-Info.plist"; sourceTree = "<group>"; };
+		EF5043D51533C5F200377396 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF5043D71533C5F200377396 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF5043D91533C5F200377396 /* Hellow World-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hellow World-Prefix.pch"; sourceTree = "<group>"; };
+		EF5043DA1533C5F200377396 /* BIDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDAppDelegate.h; sourceTree = "<group>"; };
+		EF5043DB1533C5F200377396 /* BIDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDAppDelegate.m; sourceTree = "<group>"; };
+		EF5043DD1533C5F200377396 /* BIDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDViewController.h; sourceTree = "<group>"; };
+		EF5043DE1533C5F200377396 /* BIDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDViewController.m; sourceTree = "<group>"; };
+		EF5043E11533C5F200377396 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BIDViewController.xib; sourceTree = "<group>"; };
+		EF5043E81533CAFB00377396 /* world_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = world_normal.png; path = ../world_normal.png; sourceTree = "<group>"; };
+		EF5043EA1533CB0000377396 /* world@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "world@2x.png"; path = "../world@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF5043C41533C5F200377396 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF5043CC1533C5F200377396 /* UIKit.framework in Frameworks */,
+				EF5043CE1533C5F200377396 /* Foundation.framework in Frameworks */,
+				EF5043D01533C5F200377396 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF5043BC1533C5F200377396 = {
+			isa = PBXGroup;
+			children = (
+				EF5043D11533C5F200377396 /* Hellow World */,
+				EF5043CA1533C5F200377396 /* Frameworks */,
+				EF5043C81533C5F200377396 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF5043C81533C5F200377396 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF5043C71533C5F200377396 /* Hellow World.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF5043CA1533C5F200377396 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF5043CB1533C5F200377396 /* UIKit.framework */,
+				EF5043CD1533C5F200377396 /* Foundation.framework */,
+				EF5043CF1533C5F200377396 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF5043D11533C5F200377396 /* Hellow World */ = {
+			isa = PBXGroup;
+			children = (
+				EF5043DA1533C5F200377396 /* BIDAppDelegate.h */,
+				EF5043DB1533C5F200377396 /* BIDAppDelegate.m */,
+				EF5043DD1533C5F200377396 /* BIDViewController.h */,
+				EF5043DE1533C5F200377396 /* BIDViewController.m */,
+				EF5043E01533C5F200377396 /* BIDViewController.xib */,
+				EF5043D21533C5F200377396 /* Supporting Files */,
+			);
+			path = "Hellow World";
+			sourceTree = "<group>";
+		};
+		EF5043D21533C5F200377396 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF5043EA1533CB0000377396 /* world@2x.png */,
+				EF5043E81533CAFB00377396 /* world_normal.png */,
+				EF5043D31533C5F200377396 /* Hellow World-Info.plist */,
+				EF5043D41533C5F200377396 /* InfoPlist.strings */,
+				EF5043D71533C5F200377396 /* main.m */,
+				EF5043D91533C5F200377396 /* Hellow World-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF5043C61533C5F200377396 /* Hellow World */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF5043E51533C5F200377396 /* Build configuration list for PBXNativeTarget "Hellow World" */;
+			buildPhases = (
+				EF5043C31533C5F200377396 /* Sources */,
+				EF5043C41533C5F200377396 /* Frameworks */,
+				EF5043C51533C5F200377396 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hellow World";
+			productName = "Hellow World";
+			productReference = EF5043C71533C5F200377396 /* Hellow World.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF5043BE1533C5F200377396 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BID;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = EF5043C11533C5F200377396 /* Build configuration list for PBXProject "Hellow World" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EF5043BC1533C5F200377396;
+			productRefGroup = EF5043C81533C5F200377396 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF5043C61533C5F200377396 /* Hellow World */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF5043C51533C5F200377396 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF5043D61533C5F200377396 /* InfoPlist.strings in Resources */,
+				EF5043E21533C5F200377396 /* BIDViewController.xib in Resources */,
+				EF5043E91533CAFB00377396 /* world_normal.png in Resources */,
+				EF5043EB1533CB0000377396 /* world@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF5043C31533C5F200377396 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF5043D81533C5F200377396 /* main.m in Sources */,
+				EF5043DC1533C5F200377396 /* BIDAppDelegate.m in Sources */,
+				EF5043DF1533C5F200377396 /* BIDViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EF5043D41533C5F200377396 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF5043D51533C5F200377396 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EF5043E01533C5F200377396 /* BIDViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF5043E11533C5F200377396 /* en */,
+			);
+			name = BIDViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF5043E31533C5F200377396 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF5043E41533C5F200377396 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF5043E61533C5F200377396 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hellow World/Hellow World-Prefix.pch";
+				INFOPLIST_FILE = "Hellow World/Hellow World-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EF5043E71533C5F200377396 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hellow World/Hellow World-Prefix.pch";
+				INFOPLIST_FILE = "Hellow World/Hellow World-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF5043C11533C5F200377396 /* Build configuration list for PBXProject "Hellow World" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF5043E31533C5F200377396 /* Debug */,
+				EF5043E41533C5F200377396 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF5043E51533C5F200377396 /* Build configuration list for PBXNativeTarget "Hellow World" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF5043E61533C5F200377396 /* Debug */,
+				EF5043E71533C5F200377396 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF5043BE1533C5F200377396 /* Project object */;
+}
