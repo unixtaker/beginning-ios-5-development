@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF2F5CFF1539CC10001D0AF7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF2F5CFE1539CC10001D0AF7 /* UIKit.framework */; };
+		EF2F5D011539CC10001D0AF7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF2F5D001539CC10001D0AF7 /* Foundation.framework */; };
+		EF2F5D031539CC10001D0AF7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF2F5D021539CC10001D0AF7 /* CoreGraphics.framework */; };
+		EF2F5D091539CC10001D0AF7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF2F5D071539CC10001D0AF7 /* InfoPlist.strings */; };
+		EF2F5D0B1539CC10001D0AF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2F5D0A1539CC10001D0AF7 /* main.m */; };
+		EF2F5D0F1539CC10001D0AF7 /* BIDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2F5D0E1539CC10001D0AF7 /* BIDAppDelegate.m */; };
+		EF2F5D121539CC10001D0AF7 /* BIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2F5D111539CC10001D0AF7 /* BIDViewController.m */; };
+		EF2F5D151539CC10001D0AF7 /* BIDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF2F5D131539CC10001D0AF7 /* BIDViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EF2F5CFA1539CC10001D0AF7 /* Swap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF2F5CFE1539CC10001D0AF7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EF2F5D001539CC10001D0AF7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EF2F5D021539CC10001D0AF7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EF2F5D061539CC10001D0AF7 /* Swap-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Swap-Info.plist"; sourceTree = "<group>"; };
+		EF2F5D081539CC10001D0AF7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF2F5D0A1539CC10001D0AF7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF2F5D0C1539CC10001D0AF7 /* Swap-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Swap-Prefix.pch"; sourceTree = "<group>"; };
+		EF2F5D0D1539CC10001D0AF7 /* BIDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDAppDelegate.h; sourceTree = "<group>"; };
+		EF2F5D0E1539CC10001D0AF7 /* BIDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDAppDelegate.m; sourceTree = "<group>"; };
+		EF2F5D101539CC10001D0AF7 /* BIDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDViewController.h; sourceTree = "<group>"; };
+		EF2F5D111539CC10001D0AF7 /* BIDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDViewController.m; sourceTree = "<group>"; };
+		EF2F5D141539CC10001D0AF7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BIDViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF2F5CF71539CC10001D0AF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF2F5CFF1539CC10001D0AF7 /* UIKit.framework in Frameworks */,
+				EF2F5D011539CC10001D0AF7 /* Foundation.framework in Frameworks */,
+				EF2F5D031539CC10001D0AF7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF2F5CEF1539CC10001D0AF7 = {
+			isa = PBXGroup;
+			children = (
+				EF2F5D041539CC10001D0AF7 /* Swap */,
+				EF2F5CFD1539CC10001D0AF7 /* Frameworks */,
+				EF2F5CFB1539CC10001D0AF7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF2F5CFB1539CC10001D0AF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF2F5CFA1539CC10001D0AF7 /* Swap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF2F5CFD1539CC10001D0AF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF2F5CFE1539CC10001D0AF7 /* UIKit.framework */,
+				EF2F5D001539CC10001D0AF7 /* Foundation.framework */,
+				EF2F5D021539CC10001D0AF7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF2F5D041539CC10001D0AF7 /* Swap */ = {
+			isa = PBXGroup;
+			children = (
+				EF2F5D0D1539CC10001D0AF7 /* BIDAppDelegate.h */,
+				EF2F5D0E1539CC10001D0AF7 /* BIDAppDelegate.m */,
+				EF2F5D101539CC10001D0AF7 /* BIDViewController.h */,
+				EF2F5D111539CC10001D0AF7 /* BIDViewController.m */,
+				EF2F5D131539CC10001D0AF7 /* BIDViewController.xib */,
+				EF2F5D051539CC10001D0AF7 /* Supporting Files */,
+			);
+			path = Swap;
+			sourceTree = "<group>";
+		};
+		EF2F5D051539CC10001D0AF7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF2F5D061539CC10001D0AF7 /* Swap-Info.plist */,
+				EF2F5D071539CC10001D0AF7 /* InfoPlist.strings */,
+				EF2F5D0A1539CC10001D0AF7 /* main.m */,
+				EF2F5D0C1539CC10001D0AF7 /* Swap-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF2F5CF91539CC10001D0AF7 /* Swap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF2F5D181539CC10001D0AF7 /* Build configuration list for PBXNativeTarget "Swap" */;
+			buildPhases = (
+				EF2F5CF61539CC10001D0AF7 /* Sources */,
+				EF2F5CF71539CC10001D0AF7 /* Frameworks */,
+				EF2F5CF81539CC10001D0AF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Swap;
+			productName = Swap;
+			productReference = EF2F5CFA1539CC10001D0AF7 /* Swap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF2F5CF11539CC10001D0AF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BID;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = EF2F5CF41539CC10001D0AF7 /* Build configuration list for PBXProject "Swap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EF2F5CEF1539CC10001D0AF7;
+			productRefGroup = EF2F5CFB1539CC10001D0AF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF2F5CF91539CC10001D0AF7 /* Swap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF2F5CF81539CC10001D0AF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF2F5D091539CC10001D0AF7 /* InfoPlist.strings in Resources */,
+				EF2F5D151539CC10001D0AF7 /* BIDViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF2F5CF61539CC10001D0AF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF2F5D0B1539CC10001D0AF7 /* main.m in Sources */,
+				EF2F5D0F1539CC10001D0AF7 /* BIDAppDelegate.m in Sources */,
+				EF2F5D121539CC10001D0AF7 /* BIDViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EF2F5D071539CC10001D0AF7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF2F5D081539CC10001D0AF7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EF2F5D131539CC10001D0AF7 /* BIDViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF2F5D141539CC10001D0AF7 /* en */,
+			);
+			name = BIDViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF2F5D161539CC10001D0AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF2F5D171539CC10001D0AF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF2F5D191539CC10001D0AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Swap/Swap-Prefix.pch";
+				INFOPLIST_FILE = "Swap/Swap-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EF2F5D1A1539CC10001D0AF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Swap/Swap-Prefix.pch";
+				INFOPLIST_FILE = "Swap/Swap-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF2F5CF41539CC10001D0AF7 /* Build configuration list for PBXProject "Swap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF2F5D161539CC10001D0AF7 /* Debug */,
+				EF2F5D171539CC10001D0AF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF2F5D181539CC10001D0AF7 /* Build configuration list for PBXNativeTarget "Swap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF2F5D191539CC10001D0AF7 /* Debug */,
+				EF2F5D1A1539CC10001D0AF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF2F5CF11539CC10001D0AF7 /* Project object */;
+}
